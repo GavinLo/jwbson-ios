@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B4E104E1E320725001FF033 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4E104D1E320725001FF033 /* main.m */; };
+		1B4E10511E320725001FF033 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4E10501E320725001FF033 /* AppDelegate.m */; };
+		1B4E10541E320725001FF033 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4E10531E320725001FF033 /* ViewController.m */; };
+		1B4E10571E320725001FF033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4E10551E320725001FF033 /* Main.storyboard */; };
+		1B4E10591E320725001FF033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B4E10581E320725001FF033 /* Assets.xcassets */; };
+		1B4E105C1E320725001FF033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4E105A1E320725001FF033 /* LaunchScreen.storyboard */; };
+		1B4E10BD1E320932001FF033 /* JWBitUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4E10A81E320932001FF033 /* JWBitUtils.m */; };
+		1B4E10BE1E320932001FF033 /* JWBson.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4E10AA1E320932001FF033 /* JWBson.m */; };
+		1B4E10BF1E320932001FF033 /* JWCategoryVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4E10AC1E320932001FF033 /* JWCategoryVariables.m */; };
+		1B4E10C01E320932001FF033 /* JWClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4E10AE1E320932001FF033 /* JWClass.m */; };
+		1B4E10C11E320932001FF033 /* JWEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4E10B01E320932001FF033 /* JWEncoding.m */; };
+		1B4E10C21E320932001FF033 /* JWSerializationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4E10B21E320932001FF033 /* JWSerializationManager.m */; };
+		1B4E10C31E320932001FF033 /* JWSerializedClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4E10B41E320932001FF033 /* JWSerializedClass.m */; };
+		1B4E10C41E320932001FF033 /* JWSerializedField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4E10B61E320932001FF033 /* JWSerializedField.m */; };
+		1B4E10C51E320932001FF033 /* JWType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4E10B81E320932001FF033 /* JWType.m */; };
+		1B4E10C61E320932001FF033 /* NSInputStream+JWCoreCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4E10BA1E320932001FF033 /* NSInputStream+JWCoreCategory.m */; };
+		1B4E10C71E320932001FF033 /* NSOutputStream+JWCoreCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4E10BC1E320932001FF033 /* NSOutputStream+JWCoreCategory.m */; };
+		1B4E10CA1E32098E001FF033 /* NSString+JWCoreCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4E10C91E32098E001FF033 /* NSString+JWCoreCategory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B4E10491E320725001FF033 /* jwbson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jwbson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B4E104D1E320725001FF033 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B4E104F1E320725001FF033 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B4E10501E320725001FF033 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B4E10521E320725001FF033 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1B4E10531E320725001FF033 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1B4E10561E320725001FF033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B4E10581E320725001FF033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B4E105B1E320725001FF033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B4E105D1E320725001FF033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B4E10A71E320932001FF033 /* JWBitUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWBitUtils.h; path = jw/JWBitUtils.h; sourceTree = SOURCE_ROOT; };
+		1B4E10A81E320932001FF033 /* JWBitUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWBitUtils.m; path = jw/JWBitUtils.m; sourceTree = SOURCE_ROOT; };
+		1B4E10A91E320932001FF033 /* JWBson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWBson.h; path = jw/JWBson.h; sourceTree = SOURCE_ROOT; };
+		1B4E10AA1E320932001FF033 /* JWBson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWBson.m; path = jw/JWBson.m; sourceTree = SOURCE_ROOT; };
+		1B4E10AB1E320932001FF033 /* JWCategoryVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWCategoryVariables.h; path = jw/JWCategoryVariables.h; sourceTree = SOURCE_ROOT; };
+		1B4E10AC1E320932001FF033 /* JWCategoryVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWCategoryVariables.m; path = jw/JWCategoryVariables.m; sourceTree = SOURCE_ROOT; };
+		1B4E10AD1E320932001FF033 /* JWClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWClass.h; path = jw/JWClass.h; sourceTree = SOURCE_ROOT; };
+		1B4E10AE1E320932001FF033 /* JWClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWClass.m; path = jw/JWClass.m; sourceTree = SOURCE_ROOT; };
+		1B4E10AF1E320932001FF033 /* JWEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWEncoding.h; path = jw/JWEncoding.h; sourceTree = SOURCE_ROOT; };
+		1B4E10B01E320932001FF033 /* JWEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWEncoding.m; path = jw/JWEncoding.m; sourceTree = SOURCE_ROOT; };
+		1B4E10B11E320932001FF033 /* JWSerializationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWSerializationManager.h; path = jw/JWSerializationManager.h; sourceTree = SOURCE_ROOT; };
+		1B4E10B21E320932001FF033 /* JWSerializationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWSerializationManager.m; path = jw/JWSerializationManager.m; sourceTree = SOURCE_ROOT; };
+		1B4E10B31E320932001FF033 /* JWSerializedClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWSerializedClass.h; path = jw/JWSerializedClass.h; sourceTree = SOURCE_ROOT; };
+		1B4E10B41E320932001FF033 /* JWSerializedClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWSerializedClass.m; path = jw/JWSerializedClass.m; sourceTree = SOURCE_ROOT; };
+		1B4E10B51E320932001FF033 /* JWSerializedField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWSerializedField.h; path = jw/JWSerializedField.h; sourceTree = SOURCE_ROOT; };
+		1B4E10B61E320932001FF033 /* JWSerializedField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWSerializedField.m; path = jw/JWSerializedField.m; sourceTree = SOURCE_ROOT; };
+		1B4E10B71E320932001FF033 /* JWType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWType.h; path = jw/JWType.h; sourceTree = SOURCE_ROOT; };
+		1B4E10B81E320932001FF033 /* JWType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWType.m; path = jw/JWType.m; sourceTree = SOURCE_ROOT; };
+		1B4E10B91E320932001FF033 /* NSInputStream+JWCoreCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSInputStream+JWCoreCategory.h"; path = "jw/NSInputStream+JWCoreCategory.h"; sourceTree = SOURCE_ROOT; };
+		1B4E10BA1E320932001FF033 /* NSInputStream+JWCoreCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSInputStream+JWCoreCategory.m"; path = "jw/NSInputStream+JWCoreCategory.m"; sourceTree = SOURCE_ROOT; };
+		1B4E10BB1E320932001FF033 /* NSOutputStream+JWCoreCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSOutputStream+JWCoreCategory.h"; path = "jw/NSOutputStream+JWCoreCategory.h"; sourceTree = SOURCE_ROOT; };
+		1B4E10BC1E320932001FF033 /* NSOutputStream+JWCoreCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSOutputStream+JWCoreCategory.m"; path = "jw/NSOutputStream+JWCoreCategory.m"; sourceTree = SOURCE_ROOT; };
+		1B4E10C81E32098E001FF033 /* NSString+JWCoreCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+JWCoreCategory.h"; path = "jw/NSString+JWCoreCategory.h"; sourceTree = SOURCE_ROOT; };
+		1B4E10C91E32098E001FF033 /* NSString+JWCoreCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+JWCoreCategory.m"; path = "jw/NSString+JWCoreCategory.m"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B4E10461E320725001FF033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B4E10401E320725001FF033 = {
+			isa = PBXGroup;
+			children = (
+				1B4E104B1E320725001FF033 /* jwbson */,
+				1B4E104A1E320725001FF033 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B4E104A1E320725001FF033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B4E10491E320725001FF033 /* jwbson.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B4E104B1E320725001FF033 /* jwbson */ = {
+			isa = PBXGroup;
+			children = (
+				1B4E10631E3207C7001FF033 /* jw */,
+				1B4E104F1E320725001FF033 /* AppDelegate.h */,
+				1B4E10501E320725001FF033 /* AppDelegate.m */,
+				1B4E10521E320725001FF033 /* ViewController.h */,
+				1B4E10531E320725001FF033 /* ViewController.m */,
+				1B4E10551E320725001FF033 /* Main.storyboard */,
+				1B4E10581E320725001FF033 /* Assets.xcassets */,
+				1B4E105A1E320725001FF033 /* LaunchScreen.storyboard */,
+				1B4E105D1E320725001FF033 /* Info.plist */,
+				1B4E104C1E320725001FF033 /* Supporting Files */,
+			);
+			path = jwbson;
+			sourceTree = "<group>";
+		};
+		1B4E104C1E320725001FF033 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B4E104D1E320725001FF033 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B4E10631E3207C7001FF033 /* jw */ = {
+			isa = PBXGroup;
+			children = (
+				1B4E10641E3207D8001FF033 /* core.serialize */,
+			);
+			name = jw;
+			sourceTree = "<group>";
+		};
+		1B4E10641E3207D8001FF033 /* core.serialize */ = {
+			isa = PBXGroup;
+			children = (
+				1B4E10A71E320932001FF033 /* JWBitUtils.h */,
+				1B4E10A81E320932001FF033 /* JWBitUtils.m */,
+				1B4E10A91E320932001FF033 /* JWBson.h */,
+				1B4E10AA1E320932001FF033 /* JWBson.m */,
+				1B4E10AB1E320932001FF033 /* JWCategoryVariables.h */,
+				1B4E10AC1E320932001FF033 /* JWCategoryVariables.m */,
+				1B4E10AD1E320932001FF033 /* JWClass.h */,
+				1B4E10AE1E320932001FF033 /* JWClass.m */,
+				1B4E10AF1E320932001FF033 /* JWEncoding.h */,
+				1B4E10B01E320932001FF033 /* JWEncoding.m */,
+				1B4E10B11E320932001FF033 /* JWSerializationManager.h */,
+				1B4E10B21E320932001FF033 /* JWSerializationManager.m */,
+				1B4E10B31E320932001FF033 /* JWSerializedClass.h */,
+				1B4E10B41E320932001FF033 /* JWSerializedClass.m */,
+				1B4E10B51E320932001FF033 /* JWSerializedField.h */,
+				1B4E10B61E320932001FF033 /* JWSerializedField.m */,
+				1B4E10B71E320932001FF033 /* JWType.h */,
+				1B4E10B81E320932001FF033 /* JWType.m */,
+				1B4E10B91E320932001FF033 /* NSInputStream+JWCoreCategory.h */,
+				1B4E10BA1E320932001FF033 /* NSInputStream+JWCoreCategory.m */,
+				1B4E10BB1E320932001FF033 /* NSOutputStream+JWCoreCategory.h */,
+				1B4E10BC1E320932001FF033 /* NSOutputStream+JWCoreCategory.m */,
+				1B4E10C81E32098E001FF033 /* NSString+JWCoreCategory.h */,
+				1B4E10C91E32098E001FF033 /* NSString+JWCoreCategory.m */,
+			);
+			name = core.serialize;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B4E10481E320725001FF033 /* jwbson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B4E10601E320725001FF033 /* Build configuration list for PBXNativeTarget "jwbson" */;
+			buildPhases = (
+				1B4E10451E320725001FF033 /* Sources */,
+				1B4E10461E320725001FF033 /* Frameworks */,
+				1B4E10471E320725001FF033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jwbson;
+			productName = jwbson;
+			productReference = 1B4E10491E320725001FF033 /* jwbson.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B4E10411E320725001FF033 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "luojunwen123@gmail.com";
+				TargetAttributes = {
+					1B4E10481E320725001FF033 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = D3T9A9MJ6F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1B4E10441E320725001FF033 /* Build configuration list for PBXProject "jwbson" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B4E10401E320725001FF033;
+			productRefGroup = 1B4E104A1E320725001FF033 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B4E10481E320725001FF033 /* jwbson */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B4E10471E320725001FF033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4E105C1E320725001FF033 /* LaunchScreen.storyboard in Resources */,
+				1B4E10591E320725001FF033 /* Assets.xcassets in Resources */,
+				1B4E10571E320725001FF033 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B4E10451E320725001FF033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4E10BD1E320932001FF033 /* JWBitUtils.m in Sources */,
+				1B4E10541E320725001FF033 /* ViewController.m in Sources */,
+				1B4E10C01E320932001FF033 /* JWClass.m in Sources */,
+				1B4E10BF1E320932001FF033 /* JWCategoryVariables.m in Sources */,
+				1B4E10BE1E320932001FF033 /* JWBson.m in Sources */,
+				1B4E10511E320725001FF033 /* AppDelegate.m in Sources */,
+				1B4E10C61E320932001FF033 /* NSInputStream+JWCoreCategory.m in Sources */,
+				1B4E10C71E320932001FF033 /* NSOutputStream+JWCoreCategory.m in Sources */,
+				1B4E10CA1E32098E001FF033 /* NSString+JWCoreCategory.m in Sources */,
+				1B4E104E1E320725001FF033 /* main.m in Sources */,
+				1B4E10C31E320932001FF033 /* JWSerializedClass.m in Sources */,
+				1B4E10C21E320932001FF033 /* JWSerializationManager.m in Sources */,
+				1B4E10C41E320932001FF033 /* JWSerializedField.m in Sources */,
+				1B4E10C51E320932001FF033 /* JWType.m in Sources */,
+				1B4E10C11E320932001FF033 /* JWEncoding.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B4E10551E320725001FF033 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B4E10561E320725001FF033 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B4E105A1E320725001FF033 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B4E105B1E320725001FF033 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B4E105E1E320725001FF033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B4E105F1E320725001FF033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B4E10611E320725001FF033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D3T9A9MJ6F;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)";
+				INFOPLIST_FILE = jwbson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jw.test.jwbson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B4E10621E320725001FF033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D3T9A9MJ6F;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)";
+				INFOPLIST_FILE = jwbson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jw.test.jwbson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B4E10441E320725001FF033 /* Build configuration list for PBXProject "jwbson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B4E105E1E320725001FF033 /* Debug */,
+				1B4E105F1E320725001FF033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B4E10601E320725001FF033 /* Build configuration list for PBXNativeTarget "jwbson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B4E10611E320725001FF033 /* Debug */,
+				1B4E10621E320725001FF033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B4E10411E320725001FF033 /* Project object */;
+}
